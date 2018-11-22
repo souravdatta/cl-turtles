@@ -15,5 +15,6 @@
    #:angle
    #:info
    #:draw-turtle
-   #:with-turtle))
+   #:with-turtle
+   #:it))
 
