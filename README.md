@@ -10,7 +10,7 @@ To install it, run this:
     $ cd ~/quicklisp/local-projects/
     $ git clone git://github.com/souravdatta/cl-turtles.git
 
-(Note: the local-projects directory may be different in your system, specially if you are using an IDE like Portacle. In which case you'd need to find where it is located.) 
+(Note: the local-projects directory may be different in your system, particularly in scenarios where you are using an IDE like Portacle. In which case you'd need to find where it is located.) 
 
 A simple example is as below:
 
