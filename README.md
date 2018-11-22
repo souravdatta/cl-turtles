@@ -3,7 +3,16 @@
 
 This is a project to implement Logo style turtle geometry in Common Lisp.
 Here we deviate from the interactive nature of Logo and draw more in the form of writing a program and then
-generating a PNG file with the drawing as the output of that program. A simple example is as below:
+generating a PNG file with the drawing as the output of that program. 
+
+To install it, run this:
+
+    $ cd ~/quicklisp/local-projects/
+    $ git clone git://github.com/souravdatta/cl-turtles.git
+
+(Note: the local-projects directory may be different in your system, specially if you are using an IDE like Portacle. In which case you'd need to find where it is located.) 
+
+A simple example is as below:
 
     (ql:quickload :cl-turtles)
     (in-package :cl-turtles)
