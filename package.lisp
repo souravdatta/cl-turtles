@@ -8,6 +8,8 @@
    #:back
    #:right
    #:left
+   #:arc-r
+   #:arc-l
    #:with-turtle
    #:x
    #:y

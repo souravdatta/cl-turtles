@@ -54,6 +54,16 @@
         (angle tl)
         (moves tl)))
 
+(defmethod arc-r ((tl turtle) ang)
+  (dotimes (i ang)
+    (forward tl 1)
+    (right tl 1)))
+
+(defmethod arc-l ((tl turtle) ang)
+  (dotimes (i ang)
+    (forward tl 1)
+    (left tl 1)))
+
 (defmethod draw-turtle ((tl turtle) &key (width 400) (height 400) (file "image.png"))
   (with-canvas (:width width :height height)
     (translate (/ width 2) (/ height 2))
